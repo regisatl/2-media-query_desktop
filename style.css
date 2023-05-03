@@ -58,3 +58,31 @@ h1, a{
     gap: 1rem;
 }
 
+/* tablettes */
+
+@media screen and (max-width:1200px) {
+    .main{
+        max-width: 100%;
+    }
+    .container{
+        flex-wrap: wrap;
+    }
+}
+
+/* mobiles */
+
+@media screen and (max-width: 780px) {
+
+    .container{
+        flex-wrap: wrap;
+    }
+
+    .tablette{
+        flex-wrap: wrap;
+    }
+
+    .main{
+        max-width: 100%;
+    }
+    
+}
