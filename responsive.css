@@ -1,4 +1,4 @@
-/* tablette */
+/* tablettes */
 
 @media screen and (max-width:1200px) {
     .main{
@@ -9,7 +9,7 @@
     }
 }
 
-/* mobile */
+/* mobiles */
 
 @media screen and (max-width: 780px) {
 
