@@ -1,0 +1,67 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+    font-family: sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #070707;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 4rem;
+}
+
+a:focus{
+    outline: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    padding: 2rem;
+   
+}
+a:hover,
+a:focus{
+    background-color: green;
+    color: #fff;
+ 
+}
+
+/* Ipad minimedia query */
+
+
+@media screen and (max-width:768px) {
+
+    body{
+        background-color: bisque;
+    }
+    .header{
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2rem;
+    }
+    ul{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* IPhone */
+@media screen and (max-width:414) {
+    
+}
